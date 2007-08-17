@@ -1,7 +1,7 @@
 %define module	SVG
 %define name	perl-%{module}
-%define version 2.33
-%define release %mkrel 4
+%define version 2.34
+%define release %mkrel 1
 
 Name:		%{name}
 Version:	%{version}
