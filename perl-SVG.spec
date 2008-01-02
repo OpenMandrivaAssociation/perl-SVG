@@ -15,6 +15,7 @@ Source:		http://www.cpan.org/modules/by-module/SVG/%{module}-%{version}.tar.bz2
 Buildrequires:	perl-devel
 %endif
 Buildarch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 SVG is a Perl module which generates a nested data structure containing the
