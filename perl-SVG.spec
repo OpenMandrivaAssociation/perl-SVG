@@ -1,9 +1,9 @@
-%define upstream_name	 SVG
-%define upstream_version 2.50
+%define upstream_name SVG
+%define upstream_version 2.53
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	5
+Release:	1
 
 Summary:	Perl extension for generating Scalable Vector Graphics (SVG) documents
 License:	GPL+ or Artistic
