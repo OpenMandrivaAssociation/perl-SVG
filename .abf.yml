@@ -1,4 +1,5 @@
 removed_sources:
   SVG-2.53.tar.gz: dac44a864e2e14ca795b99e00623043b83e0f44a
-sources:
   SVG-2.59.tar.gz: 9538065a444dd9a3343374b0696f5a245f3bd56a
+sources:
+  SVG-2.63.tar.gz: b4c882558bdd88a4b01cece66278b0580864dde3

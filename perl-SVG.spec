@@ -1,14 +1,14 @@
 %define modname	SVG
-%define modver 2.59
+%define modver 2.63
 
 Summary:	Perl extension for generating Scalable Vector Graphics (SVG) documents
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	5
+Release:	1
 License:	GPLv2+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/SVG/SVG-%{modver}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/%{modname}/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl-devel
 
@@ -23,7 +23,7 @@ object, create and access javascript, and generate SMIL animation content.
 perl -pi -e 's/\cM//' examples/*.{pl,cgi}
 
 %build
-%__perl Makefile.PL INSTALLDIRS=vendor
+perl Makefile.PL INSTALLDIRS=vendor
 %make
 
 %install
@@ -37,5 +37,3 @@ perl -pi -e 's/\cM//' examples/*.{pl,cgi}
 %{perl_vendorlib}/SVG
 %{perl_vendorlib}/SVG.pm
 %{_mandir}/man3/*
-
-
